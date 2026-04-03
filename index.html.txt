@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CareEase — Hospital Queue App</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f0f4f8; color: #333; }
+
+  .hero { background: linear-gradient(135deg, #1A5EA8, #2176c4); color: #fff; padding: 60px 40px; text-align: center; }
+  .hero h1 { font-size: 36px; font-weight: 800; margin-bottom: 10px; }
+  .hero p { font-size: 16px; opacity: 0.85; max-width: 600px; margin: 0 auto 30px; line-height: 1.6; }
+  .hero-btn { display: inline-block; background: #fff; color: #1A5EA8; font-weight: 700; font-size: 16px; padding: 14px 32px; border-radius: 50px; text-decoration: none; transition: transform 0.2s; }
+  .hero-btn:hover { transform: scale(1.04); }
+
+  .section { max-width: 900px; margin: 0 auto; padding: 50px 24px; }
+  .section h2 { font-size: 24px; color: #1A5EA8; margin-bottom: 24px; border-bottom: 3px solid #1A5EA8; padding-bottom: 10px; }
+
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+  .card { background: #fff; border-radius: 16px; padding: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); }
+  .card-icon { font-size: 32px; margin-bottom: 12px; }
+  .card h3 { font-size: 16px; color: #1A5EA8; margin-bottom: 8px; }
+  .card p { font-size: 13px; color: #666; line-height: 1.6; }
+
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; }
+  .feature { background: #fff; border-radius: 12px; padding: 16px; display: flex; align-items: center; gap: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+  .feature-num { background: #1A5EA8; color: #fff; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 14px; flex-shrink: 0; }
+  .feature p { font-size: 13px; color: #333; font-weight: 500; }
+
+  .docs { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; }
+  .doc-link { background: #fff; border-radius: 12px; padding: 16px 20px; display: flex; align-items: center; gap: 12px; text-decoration: none; color: #333; box-shadow: 0 2px 8px rgba(0,0,0,0.05); transition: background 0.2s; }
+  .doc-link:hover { background: #E8F2FB; }
+  .doc-icon { font-size: 24px; }
+  .doc-text { font-size: 13px; font-weight: 600; }
+
+  .problem { background: #E8F2FB; border-left: 5px solid #1A5EA8; border-radius: 0 12px 12px 0; padding: 20px 24px; margin-bottom: 30px; font-size: 15px; color: #1A5EA8; font-style: italic; line-height: 1.7; }
+
+  footer { background: #1A5EA8; color: #fff; text-align: center; padding: 24px; font-size: 13px; opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>🏥 CareEase</h1>
+  <p>A Design Thinking prototype that transforms the hospital waiting experience into a calm, informed, and inclusive journey.</p>
+  <a href="prototype.html" class="hero-btn">▶ Open Interactive Prototype</a>
+</div>
+
+<div class="section">
+  <h2>Problem Statement</h2>
+  <div class="problem">
+    "How might we transform the hospital waiting experience into a calm, informed, and inclusive journey — so that patients of all ages, abilities, and backgrounds feel supported from the moment they arrive, rather than anxious and forgotten?"
+  </div>
+
+  <h2>Design Thinking Stages</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="card-icon">🔍</div>
+      <h3>Stage 1 — Empathize & Define</h3>
+      <p>10 research-backed personas and empathy maps covering elderly, children, chronic illness, first-timers, pregnant women, caregivers, wheelchair users, and more.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">💡</div>
+      <h3>Stage 2 — Ideate</h3>
+      <p>5 compulsory features + 3 innovative additions brainstormed using HMW framework, MindMeister, and Miro.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">📱</div>
+      <h3>Stage 3 — Prototype</h3>
+      <p>Fully interactive HTML prototype with 6 screens including Queue Tracker, Distraction Hub, Silent Alerts, Mood Check-In, and Feedback.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">✅</div>
+      <h3>Stage 4 — Test</h3>
+      <p>Tested with 5 users. Average stress dropped from 7.4 to 4.2 out of 10. 5 documented iterations based on feedback.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>5 Compulsory Features</h2>
+  <div class="features">
+    <div class="feature"><div class="feature-num">1</div><p>Queue Progress Tracker</p></div>
+    <div class="feature"><div class="feature-num">2</div><p>Distraction Hub</p></div>
+    <div class="feature"><div class="feature-num">3</div><p>Silent Pager Notifications</p></div>
+    <div class="feature"><div class="feature-num">4</div><p>Mood-Based Interactions</p></div>
+    <div class="feature"><div class="feature-num">5</div><p>Feedback Section</p></div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Project Documents</h2>
+  <div class="docs">
+    <a class="doc-link" href="Docs/Personas_Clean.docx"><span class="doc-icon">👤</span><span class="doc-text">Personas</span></a>
+    <a class="doc-link" href="Docs/Empathy_Maps.docx"><span class="doc-icon">🗺️</span><span class="doc-text">Empathy Maps</span></a>
+    <a class="doc-link" href="Docs/Problem_Statement_Ideation.docx"><span class="doc-icon">💡</span><span class="doc-text">Problem Statement & Ideation</span></a>
+    <a class="doc-link" href="Data/Testing_Notes.docx"><span class="doc-icon">📋</span><span class="doc-text">Testing Notes</span></a>
+  </div>
+</div>
+
+<footer>
+  CareEase — IDAI106(2505788)-NikhilRaimalani &nbsp;|&nbsp; Design Thinking for Innovation
+</footer>
+
+</body>
+</html>
