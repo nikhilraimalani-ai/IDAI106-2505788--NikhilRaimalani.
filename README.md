@@ -1,9 +1,5 @@
 # CareEase — Smart Solutions for Hospital Queues
 
-> **IDAI106(2505788) — Nikhil Raimalani**  
-> Course: Design Thinking for Innovation | CRS: Artificial Intelligence  
-> Scenario 2 — Create Smart Solutions for Hospital Queues
-
 ---
 
 ## Problem Statement
