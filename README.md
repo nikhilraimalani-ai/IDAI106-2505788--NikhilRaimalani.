@@ -76,3 +76,4 @@ Built a fully interactive HTML prototype simulating all 5 compulsory features pl
 
 
 
+PROTOTYPE LINK: https://nikhilraimalani-ai.github.io/IDAI106-2505788--NikhilRaimalani./?classId=6afecef6-f697-4aad-a44e-972280596f45&assignmentId=9fa28917-1c2d-422f-816f-8a0f047304ec&submissionId=bbf1e4fd-b6b4-6971-5a17-252a016df5ca
